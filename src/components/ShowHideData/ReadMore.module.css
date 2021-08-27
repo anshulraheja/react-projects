@@ -1,0 +1,14 @@
+.container {
+    background: var(--clr-white);
+    padding: 1rem 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    max-width: var(--fixed-width);
+    margin: 2rem auto;
+}
+
+button {
+    padding: 2px;
+    color: red;
+}

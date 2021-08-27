@@ -1,0 +1,38 @@
+:root {
+  --primary-clr: #333333;
+  --secondary-clr: whitesmoke;
+}
+.container > .header {
+    margin-top: 2rem;
+    text-align: center;
+}
+/* Accordian */
+.accordionContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 50%;
+    background-color: var(--primary-clr);
+    margin: 5rem auto 0 auto;
+    transition: background-color 0.5s ease;
+    color: var(--secondary-clr);
+}
+.accordionContainer:hover{
+    box-shadow:  0px 0px 2px 1px #525050;
+}
+.active{
+    background-color: var(--secondary-clr);
+    color: var(--primary-clr);
+}
+.arrow, h2 {
+    margin: 0.1rem;
+}
+.arrow {
+    cursor: pointer;
+}
+.hiddenData {
+    width: 50%;
+    background-color: var(--secondary-clr);
+    margin: 0 auto 2rem auto;
+    padding: 0.5rem;
+}
