@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import styles from './menu.module.css'
 import data from './data'
 
+
 // category component
-const Category = ({allCategories, filterItems}) => {
+const Category = ({categories, filterItems}) => {
+    // console.log(allCategories)
     return (
     <section className={styles.categorySection}>
         <div className={styles.btnContainer}>
-            {allCategories.map((category, index) =>{
+            {categories.map((category, index) =>{
                 return <button 
                 key={index}
                 className={styles.filterBtn}
@@ -44,9 +46,10 @@ const MenuData = ({menuItems}) => {
 // main component
 const Menu = () => {
     const allCategories = ['all',...new Set(data.map((item)=> item.category))];
+console.log(allCategories); 
     const [menuItems, setMenuItems] = useState(data);
     const [categories, useCategories] = useState(allCategories);
-
+console.log(categories);
 
     const filterItems = (category) => {
         if(category === 'all'){
