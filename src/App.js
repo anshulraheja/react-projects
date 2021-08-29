@@ -1,9 +1,10 @@
 import './App.css'
-import Readmore from './components/ShowHideData/ReadMore.js';
+// import Readmore from './components/ShowHideData/ReadMore.js';
 import Card from './components/cardCarousel/Card.js';
 import Accordion from './components/Accordion/Accordion.jsx'
 import Menu from './components/MenuFunctionality/Menu';
 import Tab from './components/TabFunctionality/Tab';
+import Slider from './components/Slider/Slider';
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,8 @@ function App() {
         {/* <Card/> */}
         {/* <Accordion/> */}
         {/* <Menu/> */}
-        <Tab/>
+        {/* <Tab/> */}
+        <Slider/>
     </div>
   );
 }

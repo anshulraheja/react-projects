@@ -41,27 +41,29 @@ export default function Card() {
         setIndex(checkIndex(randomNumber));
     }
     return (
-        <article className={styles.container}>
-            <div className={styles.imgContainer}>
+    <article className={styles.container}>
+        {/* img container */}
+        <div className={styles.imgContainer}>
             <img src={image} alt={name} className={styles.personImg}/>
             <span className={styles.quoteIcon}>
                 <FaQuoteRight />
             </span>
-            </div>
-            <h4 className={styles.author}>{name}</h4>
-            <p className={styles.job}>{job}</p>
-            <p className={styles.info}>{text}</p>
-            <div className={styles.buttonContainer}>
+        </div>
+        {/* info */}
+        <h4 className={styles.author}>{name}</h4>
+        <p className={styles.job}>{job}</p>
+        <p className={styles.info}>{text}</p>
+        {/* button container */}
+        <div className={styles.buttonContainer}>
             <button className={styles.prevBtn} onClick={prevButton}>
                 <FaChevronLeft />
             </button>
             <button className={styles.nextBtn} onClick={nextButton}>
                 <FaChevronRight />
             </button>
-            </div>
-            <button className={styles.randomBtn} onClick={randomButton}>
-            surprise me
-            </button>
-      </article>
+        </div>
+        <button className={styles.randomBtn} onClick={randomButton}>
+        surprise me</button>
+    </article>
   );
 }

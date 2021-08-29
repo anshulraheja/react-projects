@@ -1,5 +1,5 @@
 import React ,{useState, useEffect} from 'react'
-import { FaAngleDown } from 'react-icons/fa';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 import styles  from './tab.module.css'
 
 const url = 'https://course-api.com/react-tabs-project';
@@ -55,7 +55,7 @@ const Tab = () => {
                     {duties.map((duty, index)=>{
                         return(
                             <div key={index} className={styles.description}>
-                                <FaAngleDown className={styles.icon}/>
+                                <FaAngleDoubleRight className={styles.icon}/>
                                 <p>{duty}</p>
                             </div>
                         )

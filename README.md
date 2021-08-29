@@ -6,6 +6,7 @@ This repo contains small React projects and functionalities
 2. Card Crousel 
 3. Accordion 
 4. Menu functionality
+5. Slider
 
 ## Installation 
 ```bash 

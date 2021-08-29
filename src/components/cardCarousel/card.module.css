@@ -1,15 +1,20 @@
+  :root{
+    --primary-clr-1: rgb(99, 10, 16);
+    --primary-clr-2: rgb(145, 31, 39);
+    --secondary-clr-1: rgb(255, 237, 218);
+    --secondary-clr-2: rgb(252, 240, 200);
+  }
   .container {
-    background: var(--clr-white);
+    background: var(--secondary-clr-1);
     padding: 1.5rem 2rem;
-    border-radius: var(--radius);
-    box-shadow: var(--light-shadow);
-    transition: var(--transition);
+    border-radius: 1rem;
+    /* transition:  */
     text-align: center;
-    max-width: var(--fixed-width);
+    width: 60%;
     margin: 2rem auto;
   }
   .container:hover {
-    box-shadow: var(--dark-shadow);
+    box-shadow: 1px 1px 1px var(--primary-clr-2);
   }
   .imgContainer {
     position: relative;
@@ -37,14 +42,14 @@
     place-items: center;
     border-radius: 50%;
     transform: translateY(25%);
-    background: var(--clr-primary-5);
-    color: var(--clr-white);
+    background: var(--primary-clr-1);
+    color: white;
   }
   .imgContainer::before {
     content: '';
     width: 100%;
     height: 100%;
-    background: var(--clr-primary-5);
+    background: var(--primary-clr-1);
     position: absolute;
     top: -0.25rem;
     right: -0.5rem;
@@ -56,7 +61,7 @@
   .job {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
-    color: var(--clr-primary-5);
+    color: var(--primary-clr-1);
     font-size: 0.85rem;
   }
   .info {
@@ -64,32 +69,32 @@
   }
   .prevBtn,
   .nextBtn {
-    color: var(--clr-primary-7);
+    color: var(--primary-clr-1);
     font-size: 1.25rem;
     background: transparent;
     border-color: transparent;
     margin: 0 0.5rem;
-    transition: var(--transition);
+    /* transition:  */
     cursor: pointer;
   }
   .prevBtn:hover,
   .nextBtn:hover {
-    color: var(--clr-primary-5);
+    color: var(--primary-clr-2);
   }
   .randomBtn {
     margin-top: 0.5rem;
-    background: var(--clr-primary-10);
-    color: var(--clr-primary-5);
+    background: var(--primary-clr-1);
+    color: white;
     padding: 0.25rem 0.5rem;
     text-transform: capitalize;
-    border-radius: var(--radius);
-    transition: var(--transition);
+    border-radius: 0.2rem;
+    /* transition: */
     border-color: transparent;
     cursor: pointer;
   }
   .randomBtn:hover {
-    background: var(--clr-primary-5);
-    color: var(--clr-primary-1);
+    background: var(--primary-clr-2);
+    color: white;
   }
 
  
