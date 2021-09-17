@@ -1,3 +1,17 @@
-.menuSection{
-    /* background-color: red; */
+.mainSection{
+    margin: 1rem auto;
+    padding: 2rem;
+}
+.mainSection h1 {
+    text-align: center;
+}
+.filterBtn {
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+.menuItem {
+    width: 50%;
+    margin: 0.3rem 0 ;
+    padding: 0.2rem;
+    border: 1px solid black;
 }

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom';
 import slideData from './slideData.js'
 import {FiChevronLeft , FiChevronRight}  from 'react-icons/fi';
 import styles from './slider.module.css';
@@ -17,6 +18,7 @@ const Slider = () => {
         }
     }, [index, data]);
     
+    //auto slider 
     // useEffect(() => {
     //     let slider = setInterval(() => {
     //       setIndex(index + 1);
@@ -27,6 +29,7 @@ const Slider = () => {
     // }, [index]);
 
     return (
+
         <section className={styles.mainSection}>
             <div className={styles.title}>
                 <h2>Slider Functionality</h2>
@@ -46,7 +49,8 @@ const Slider = () => {
                         position = 'lastSlide';
                     }
                     var newPosition = `styles.${position}`
-                    console.log(newPosition);
+                    // console.log(typeof newPosition);
+                    // console.log(typeof styles.mainSection)
                     return(
                         <article className={newPosition} key={id}>
                             <img src={image} alt={name} className={styles.img} />

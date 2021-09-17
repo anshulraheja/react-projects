@@ -5,7 +5,6 @@ import data from './data'
 
 // category component
 const Category = ({categories, filterItems}) => {
-    // console.log(allCategories)
     return (
     <section className={styles.categorySection}>
         <div className={styles.btnContainer}>
@@ -24,7 +23,7 @@ const Category = ({categories, filterItems}) => {
 // menu item component
 const MenuData = ({menuItems}) => {
     return (
-    <section className={styles.menuSection}>
+    <section>
         {menuItems.map((item)=>{
             const {id, title, img, desc, price} = item;
             return (
