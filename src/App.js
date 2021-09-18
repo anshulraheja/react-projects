@@ -10,6 +10,7 @@ import Slider from './components/Slider/Slider';
 import Crypto from './components/crypto-price-tracker/Crypto'
 import Counter from './components/counter/Counter';
 import FetchData from './components/fetchData/FetchData';
+import FetchData2 from './components/BenWard_fetchData/FetchData2';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Crypto"  component={Crypto} />
           <Route path="/Counter"  component={Counter} />
           <Route path="/FetchData"  component={FetchData} />
+          <Route path="/FetchData2"  component={FetchData2} />
       </Switch>
     </div>
   );

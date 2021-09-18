@@ -11,7 +11,7 @@ This repo contains small react projects and functionalities
 7. [Crypto Currency Price tracker](./src/components/crypto-price-tracker)
 8. [Counter](./src/components/counter)
 9. [Fetch Data](./src/components/fetchData)
-10. [Ben Ward Interview Fetch Data](./src/components/fetchData2)
+10. [Ben Ward Interview Fetch Data](./src/components/BenWard_fetchData)
 
 ## Installation 
 ```bash 

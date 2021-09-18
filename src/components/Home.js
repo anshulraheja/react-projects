@@ -26,6 +26,7 @@ const Home = () => {
                     <li><Link to="/Crypto">Crypto Price Tracker </Link></li>
                     <li><Link to="/Counter">Counter</Link></li>
                     <li><Link to="/FetchData">Fetch Data</Link></li>
+                    <li><Link to="/FetchData2">Ben Ward Interview-Fetch Data</Link></li>
                 </ul>
             </div>
         </div>
