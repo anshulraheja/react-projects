@@ -1,0 +1,11 @@
+.container{
+    margin: 2vmax;
+    display: flex;
+    justify-content: center;
+}
+
+.container button, span{
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
