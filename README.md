@@ -9,7 +9,9 @@ This repo contains small react projects and functionalities
 5. [Tab Functionality](./src/components/TabFunctionality)
 6. [Slider](./src/components/Slider)
 7. [Crypto Currency Price tracker](./src/components/crypto-price-tracker)
-8. [Counter]()
+8. [Counter](./src/components/counter)
+9. [Fetch Data](./src/components/fetchData)
+10. [Ben Ward Interview Fetch Data](./src/components/fetchData2)
 
 ## Installation 
 ```bash 
