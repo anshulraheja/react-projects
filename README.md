@@ -12,7 +12,7 @@ This repo contains small react projects and functionalities
 8. [Counter](./src/components/counter)
 9. [Fetch Data](./src/components/fetchData)
 10. [Ben Ward Interview Fetch Data](./src/components/BenWard_fetchData)
-
+11. ChangeTheme 
 ## Installation 
 ```bash 
 git clone https://github.com/anshulraheja/react-projects.git

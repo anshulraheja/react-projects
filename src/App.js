@@ -11,6 +11,8 @@ import Crypto from './components/crypto-price-tracker/Crypto'
 import Counter from './components/counter/Counter';
 import FetchData from './components/fetchData/FetchData';
 import FetchData2 from './components/BenWard_fetchData/FetchData2';
+import MainPage from './components/changeTheme/MainPage';
+import StopWatch from './components/stopWatch/StopWatch';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/Counter"  component={Counter} />
           <Route path="/FetchData"  component={FetchData} />
           <Route path="/FetchData2"  component={FetchData2} />
+          <Route path="/MainPage"  component={MainPage} />
+          <Route path="/StopWatch"  component={StopWatch} />
       </Switch>
     </div>
   );

@@ -1,0 +1,35 @@
+.containerStyling {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .timerStyling {
+    font-size: 50px;
+    border: 1px solid #333333;
+    background-color: #C8C6C6;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .ButtonStyling {
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 8px 2px 8px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .startButton:hover {
+    background-color: green;
+    font-size: 22px;
+  }
+  .stopButton:hover {
+    background-color: red;
+    font-size: 22px;
+  }
+  .resetButton:hover {
+    background-color: blue;
+    font-size: 22px;
+  }
