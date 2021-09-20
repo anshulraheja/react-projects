@@ -29,6 +29,7 @@ const Home = () => {
                     <li><Link to="/FetchData2">Ben Ward Interview-Fetch Data</Link></li>
                     <li><Link to="/MainPage">Change Theme - Context API</Link></li>
                     <li><Link to="/StopWatch">Stop Watch</Link></li>
+                    <li><a href="https://demo-store-app.netlify.app/">Demo Store App</a></li>
                 </ul>
             </div>
         </div>
